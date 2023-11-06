@@ -36,7 +36,10 @@ export default function Sectionfive() {
 
                 </div>
                 <div className='rightfivesection'>
-                <img alt=' ' src="./media/11.png" className='imgfiveee1'/>
+                   
+                    <img alt=' ' src="./media/00.png" className='imgfiveee2' />
+                    <img alt=' ' src="./media/11.png" className='imgfiveee1' />
+
 
                 </div>
 

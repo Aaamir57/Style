@@ -6,7 +6,8 @@ export default function Contactus() {
     return (
         <div>
             <Header />
-            <div className='sectiononecontactus'>
+            <div className='sectiononecontactus' style={{ backgroundImage: 'url("./media/01.png")', 
+            backgroundSize: 'cover', backgroundPosition: 'center', height: '302px' }}>
                 <h1>Contact Us</h1>
                 <p>Get in touch with our team</p>
                 <div className='iconcontactus'>
@@ -50,10 +51,10 @@ export default function Contactus() {
                             <h1>Drop us a line</h1>
                         </div>
                         <div className='maininput'>
-                            <input  type="text" name="" value="" placeholder="Name"/>
-                            <input  type="text" name="" placeholder='Email' />
+                            <input type="text" name="" value="" placeholder="Name" />
+                            <input type="text" name="" placeholder='Email' />
                             <input type="text" name="" placeholder='Contact no' />
-                            <textarea type="text" name="" value=""  placeholder='messeage' />
+                            <textarea type="text" name="" value="" placeholder='messeage' />
                         </div>
                         <div className='submitbtnmain'>
                             <div className='boxseting'>
@@ -70,8 +71,12 @@ export default function Contactus() {
 
 
             <div className='mainfivesection'>
-                <div className='rightfivesection'>
-                    <img alt=' ' src="./media/Rectangle.png" className='imgfivee'/>
+                <div className='hexmain'>
+                    <div style={{ backgroundImage: 'url("./media/02.svg")', backgroundSize: 'cover',
+                         backgroundPosition: 'center', width:'293px',height:'328px' }}>
+                        <img alt=' ' src="./media/Rectangle.png" className='imgfivee' />
+
+                    </div>
 
                 </div>
                 <div className='leftffivesection'>
@@ -106,7 +111,7 @@ export default function Contactus() {
 
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

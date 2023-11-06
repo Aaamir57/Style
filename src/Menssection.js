@@ -15,7 +15,21 @@ export default function Menssection() {
                     </button>
                 </div>
                 <div className='rightmensection'>
-                    <img alt=' ' src="./media/5.png" />
+                <div className='yy'>
+                        <div className='cc'></div>
+                        <div className='dd'></div>
+                        <div className='ee'></div>
+                    </div>
+                   
+                    <div className='zz'>
+                        <div className='aa'>
+                        <img alt=' ' src="./media/5.png"  className='imgmen'/>
+                        </div>
+                        <div className='bb'> </div>
+
+                    </div>
+                  
+                   
 
                 </div>
             </div>
