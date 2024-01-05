@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div><br />
+        <div>
             <footer>
                 <div className='mainfooterdiv'>
                     <img alt=' ' src="./media/rlye_logo.svg" className='firstfoterimage' />

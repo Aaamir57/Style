@@ -14,6 +14,7 @@ import {
 } from 'react-router-dom';
 import About from './About';
 import Contactus from './Contactus';
+import Career from './Career';
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
 
       <Router>
         <Routes>
-          
-          <Route path="/" exact element={<About />} />
+        <Route path="/about" exact element={<About />} />
+          <Route path="/" exact element={<Career />} />
           <Route path="/contact" exact element={<Contactus />} />
         </Routes>
       </Router>

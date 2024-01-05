@@ -21,8 +21,9 @@ export default function Header() {
                         <li><a href="#">About Us</a></li>
 
                         <li><a href="#">Contact</a></li>
-                        <li><button className='linkbtn'><h1>Become a ryle</h1></button></li>
+                        {/* <li><button className='linkbtn'><h1>Become a ryle</h1></button></li> */}
                     </ul>
+                    <li><button className='linkbtn linkbtnnew'><h1>Become a ryle</h1></button></li>
                     <div className="toggle_btn" onClick={toggleDropdown}>
                         <FontAwesomeIcon icon={isOpen ? faXmark : faBars} />
                     </div>
