@@ -32,7 +32,7 @@ export default function Careerfour() {
                                 
                             </Careerfourmainleftonedivtop>
                             <Careerfourmainleftonedivtoptext>
-                            Age <br/> Diversirty
+                            Age  Diversirty
                             </Careerfourmainleftonedivtoptext>
                         </Careerfourmainleftonediv>
                     </Careerfourmainleftone>
@@ -47,6 +47,7 @@ export default function Careerfour() {
                                 
                             </Careerfourmainleftonedivtop>
                             <Careerfourmainleftonedivtoptext>
+                            <br/>
                             Education
                             </Careerfourmainleftonedivtoptext>
                         </Careerfourmainleftonediv>
@@ -63,7 +64,7 @@ export default function Careerfour() {
                                
                             </Careerfourmainleftonedivtop1>
                             <Careerfourmainleftonedivtoptext>
-                            Sexual<br/>
+                            Sexual
                                     Orientation
                             </Careerfourmainleftonedivtoptext>
                         </Careerfourmainleftonediv1>
@@ -80,7 +81,10 @@ export default function Careerfour() {
                                
                             </Careerfourmainleftonedivtop1>
                             <Careerfourmainleftonedivtoptext>
+                            <br/>
                             Ethinicity
+                           
+                           
                             </Careerfourmainleftonedivtoptext>
                         </Careerfourmainleftonediv1>
                         <h1>Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit, sed<br />
@@ -96,7 +100,7 @@ export default function Careerfour() {
                               
                             </Careerfourmainleftonedivtop1>
                             <Careerfourmainleftonedivtoptext>
-                            Color <br/>
+                            Color 
                                     Diversirty
                             </Careerfourmainleftonedivtoptext>
                         </Careerfourmainleftonediv1>

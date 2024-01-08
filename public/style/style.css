@@ -52,13 +52,13 @@ gap: 15%;
 	gap: 22%;
 		
 		}}
-	@media (min-width:992px) and (max-width:1010px) {
+	@media (min-width:992px) and (max-width:1080px) {
 		.navbar{
 			
 			display: flex;
 			
 	justify-content: end;
-	gap: 10%;
+	gap: 5%;
 		
 		}
 		
