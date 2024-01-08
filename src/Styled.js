@@ -2,12 +2,13 @@ import styled from '@emotion/styled';
 
 export const Careeonemain = styled.div`
   display: flex;
-  justify-content: space-between;
+  align-items:center;
+  justify-content: space-evenly;
   background: #323232;
   height:420px;
   overflow:hidden;
   @media (min-width: 940px) {
-      padding-left:60px;
+      ${'' /* padding-left:60px; */}
      
   }
   @media (max-width: 940px) {
@@ -24,7 +25,7 @@ export const Careeonemainleft = styled.div`
   align-items:flex-start;
   padding-top:60px;
   padding-bottom:20px;
-  flex:1;
+  
 
   h1 {
     color: #FFF;
@@ -56,6 +57,17 @@ line-height: normal;
 text-align:left;
 padding-bottom:20px;
   }
+  @media (min-width: 980px) {
+     p{
+      width:350px;
+     }
+  }
+  @media (min-width: 940px)  and (max-width: 980px) {
+     {
+     padding-left:20px;
+     padding-right:20px;
+     }
+  }
 `;
 export const Careeonemainleftbutton = styled.button`
  width: 163px;
@@ -73,33 +85,29 @@ font-family: Poppins;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
-line-height: 30px; /* 150% */
+position:relative;
+top:2px;
+ /* 150% */
   }
 `;
 
 
 export const Careeonemainright = styled.div`
   display: flex;
- 
-flex:1;
-@media (max-width: 940px) {
+
+@media (max-width: 979px) {
         display:none;
   }
 img{
    
-    min-width:65.68px;
-    min-height:680px;
-    position:relative;
-    bottom:120px;
-    @media (max-width: 1170px) {
-        max-width:500.68px;
-       min-height:680px;
-  }
-    @media (min-width: 1480px) {
+    width:100%;
+    height:100%;
+  
+   ${'' /* @media (min-width: 1480px) {
         min-width:165.68px
         position:relative;
         right:-110px;
-  }
+  } */}
  
 }
   
@@ -182,7 +190,7 @@ export const Careertwomainright = styled.div`
  flex-wrap:wrap;
   }
   @media (min-width: 1010px) {
-  justify-content:space-between;
+  justify-content:space-evenly;
   gap:40px;
   }
  
@@ -209,8 +217,10 @@ background: #FFF;
 box-shadow: 0px 18px 31px 1px rgba(139, 137, 137, 0.27);
   }
   @media (min-width: 1010px) {
-max-width:400px;
-min-height:305px;
+    width: 292px;
+height: 345px;
+flex-shrink: 0;
+
   }
 
   h3{
@@ -249,6 +259,40 @@ flex-shrink: 0;
 
 `;
 
+export const CareertwomainrighttwomainONE = styled.div`
+display:flex;
+flex-direction:column;
+
+gap:13px;
+
+`;
+
+export const CareertwomainrighttwomainONEline = styled.div`
+background: #04D8AC;
+width: 211px;
+height: 1.5px;
+position:relative;
+top:30px;
+right:-30%;
+display:flex;
+text-align:end;
+justify-content:end;
+@media (max-width: 1010px) {
+display:none;
+  }
+`;
+export const CareertwomainrighttwomainONElineywo = styled.div`
+background: #04D8AC;
+width: 76px;
+height: 1.5px;
+
+position:relative;
+top:5px;
+@media (max-width: 1010px) {
+display:none;
+  }
+`;
+
 
 
 
@@ -269,8 +313,10 @@ height:auto;
 max-width:300px;
   }
   @media (min-width: 1010px) {
-max-width:400px;
-min-height:305px;
+    width: 292px;
+height: 325px;
+flex-shrink: 0;
+padding:20px;
 position:relative;
 top:20px;
   }
@@ -315,8 +361,7 @@ flex-direction:column;
 align-items:center;
 justify-content:center;
 background: #323232;
-padding-left:100px;
-padding-right:100px;
+
 padding-bottom:20px;
 @media (max-width: 1010px) {
 display:none;
@@ -340,8 +385,8 @@ font-weight: 700;
 line-height: normal;
 }
 img{
-  width: 100%;
-height: 100%;
+  width: 80%;
+height: 80%;
 flex-shrink: 0;
 }
 
@@ -365,7 +410,8 @@ background: #323232;
 padding-bottom:40px;
 @media (min-width: 1200px) {
   gap:30px;
-  justify-content:space-between;
+  align-items:center;
+  justify-content:space-evenly;
   padding-left:40px;
 padding-right:40px;
   }
@@ -413,6 +459,19 @@ padding-right:20px;
   
   min-width:90%;
     }
+    @media (min-width: 1200px) {
+  
+  max-width:40%;
+    }
+    @media (min-width: 1350px) {
+  
+  max-width:35%;
+    }
+    @media (min-width: 1040px) and (max-width: 1200px) {
+  
+  max-width:40%;
+    }
+    
 `;
 
 
@@ -442,13 +501,24 @@ line-height: normal;
 
 export const Careerfourmainleftonediv = styled.div`
 border-radius: 8px;
-${'' /* background: #058E8E; */}
+
 width: 213px;
 height: 128px;
 flex-shrink: 0;
-@media (min-width: 1200px) {
+
+@media (min-width: 1040px) and (max-width: 1200px) {
   position:relative;
 right:-50px;
+
+  }
+@media (min-width: 1200px) {
+  position:relative;
+right:-30px;
+
+  }
+  @media (min-width: 1350px) {
+  position:relative;
+right:-40px;
 
   }
 
@@ -465,8 +535,8 @@ height:100%;
 border-radius: 8px; 
 align-items:end;
 justify-content:start;
-z-index:1;
-h2{
+
+${'' /* h2{
   color: #FFF;
 font-family: Poppins;
 font-size: 29px;
@@ -475,8 +545,25 @@ text-align:left;
 font-weight: 800;
 line-height: 101.5%; 
 
-}
+} */}
 `;
+export const Careerfourmainleftonedivtoptext = styled.h2`
+position:absolute;
+bottom:2px;
+left:2px;
+z-index:1;
+
+  color: #FFF;
+font-family: Poppins;
+font-size: 29px;
+font-style: normal;
+text-align:left;
+font-weight: 800;
+line-height: 101.5%; 
+
+
+`;
+
 
 
 
@@ -506,6 +593,18 @@ min-width:65%;
  
  min-width:90%;
    }
+   @media (min-width: 1200px) {
+  
+  max-width:40%;
+    }
+    @media (min-width: 1350px) {
+  
+  max-width:35%;
+    }
+    @media (min-width: 1040px) and (max-width: 1200px) {
+ width:40%;
+
+  }
 `;
 
 
@@ -537,11 +636,23 @@ border-radius: 8px;
 width: 213px;
 height: 128px;
 flex-shrink: 0;
-@media (min-width: 1200px) {
+@media (min-width: 1040px) and (max-width: 1200px) {
   position:relative;
 right:50px;
 
   }
+@media (min-width: 1200px) {
+  position:relative;
+right:30px;
+
+  }
+
+  @media (min-width: 1350px) {
+  position:relative;
+right:40px;
+
+  }
+
 
 z-index:1000;
 

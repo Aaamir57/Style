@@ -30,16 +30,38 @@ box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.25);
 	display: grid;
 	align-items: center;	
 }
-
-@media (min-width:992px) {
+.navbarheadhidden{
+	display: hidden;
+}
+@media (min-width:1010px) {
 	.navbar{
 		
 		display: flex;
 		
-justify-content: space-between;
+justify-content: end;
+gap: 15%;
 	
-	}
-	
+	}}
+
+	@media (min-width:1450px) {
+		.navbar{
+			
+			display: flex;
+			
+	justify-content: end;
+	gap: 22%;
+		
+		}}
+	@media (min-width:992px) and (max-width:1010px) {
+		.navbar{
+			
+			display: flex;
+			
+	justify-content: end;
+	gap: 10%;
+		
+		}
+		
 }
 @media (max-width:992px) {
 	.navbar{
@@ -1595,11 +1617,31 @@ height: 210%;
 	z-index: 1;
 }
 
+.linkbtnnew{
+	border-radius: 12px;
+border: 1px solid #04D8AC;
+width: 130px;
+height: 35.921px;
+flex-shrink: 0;
+display: grid;
+place-items: center;
+background: #323232; 
+position: relative;
+top: -10px;
+}
+.linkbtnnew h1{
+	color: #04D8AC;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 250% */
+}
 @media (max-width:992px) {
 	.navbar{
 		display: flex;
 	align-items: center;
-	justify-content: center;
+	
 	justify-content: end;
 	}.linkbtnnew{
 		display: none;
