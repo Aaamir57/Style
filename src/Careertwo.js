@@ -34,9 +34,8 @@ export default function Careertwo() {
 
                         </CareertwomainrighttwomainONEline>
                         <Careertwomainrighttwomain>
-                            <CareertwomainrightOne
-                                style={{ backgroundImage: 'url("./media/0005.svg")', backgroundSize: 'cover', width: '100px', height: '100px' }}>
-                                <img alt=' ' src="./media/0007.svg" />
+                            <CareertwomainrightOne>
+                                <img alt=' ' src="./media/0007.svg"  className='imagetwo'/>
                             </CareertwomainrightOne>
                             <h3>Health Safety</h3>
                             <h4>Ut enim ad minim veniam, quis nostrud

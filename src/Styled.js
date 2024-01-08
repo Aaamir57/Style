@@ -7,14 +7,21 @@ export const Careeonemain = styled.div`
   background: #323232;
   height:420px;
   overflow:hidden;
-  @media (min-width: 940px) {
-      ${'' /* padding-left:60px; */}
-     
-  }
-  @media (max-width: 940px) {
+
+  @media (max-width: 1040px) {
       padding-left:20px;
       padding-right:20px;
   }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+     justify-content:center;
+     padding-left:60px;
+     padding-right:60px;
+  }
+  @media (max-width: 465px) {
+     height:auto;
+  }
+
 
 `;
 
@@ -33,7 +40,7 @@ font-family: Poppins;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
-line-height: 76%; 
+line-height: 95%; 
 text-align:left;/* 55.68px */
 padding-bottom:10px;
   }
@@ -85,8 +92,7 @@ font-family: Poppins;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
-position:relative;
-top:2px;
+
  /* 150% */
   }
 `;
@@ -94,12 +100,14 @@ top:2px;
 
 export const Careeonemainright = styled.div`
   display: flex;
-
+align-items:center;
+justify-content:center;
+padding-top:60px;
 @media (max-width: 979px) {
         display:none;
   }
 img{
-   
+  
     width:100%;
     height:100%;
   
@@ -136,10 +144,12 @@ img{
 
 export const Careertwomain = styled.div`
   display: flex;
+ 
   flex-direction:column;
   @media (min-width: 980px) {
        padding-left:40px;
        padding-right:40px;
+       padding-top:30px;
        padding-bottom:40px;
   }
   @media (max-width: 980px) {
@@ -166,7 +176,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: 35px;
-padding-bottom:10px; /* 203.125% */
+padding-bottom:20px; /* 203.125% */
   }
 h2{
     color: #000;
@@ -176,6 +186,7 @@ font-size: 13px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
+padding-bottom:5px;
 }
 `;
 
@@ -262,8 +273,8 @@ flex-shrink: 0;
 export const CareertwomainrighttwomainONE = styled.div`
 display:flex;
 flex-direction:column;
-
 gap:13px;
+
 
 `;
 
@@ -272,8 +283,8 @@ background: #04D8AC;
 width: 211px;
 height: 1.5px;
 position:relative;
-top:20px;
-right:-30%;
+
+right:-29%;
 display:flex;
 text-align:end;
 justify-content:end;
@@ -287,7 +298,7 @@ width: 76px;
 height: 1.5px;
 
 position:relative;
-top:5px;
+bottom:15px;
 @media (max-width: 1010px) {
 display:none;
   }
@@ -314,11 +325,10 @@ max-width:300px;
   }
   @media (min-width: 1010px) {
     width: 292px;
-height: 325px;
+height: 345px;
 flex-shrink: 0;
 padding:20px;
-position:relative;
-top:20px;
+
   }
 h3{
   color: #323232;
@@ -407,7 +417,7 @@ display:flex;
 justify-content:space-between;
 
 background: #323232;
-
+padding-top:15px;
 padding-bottom:40px;
 @media (min-width: 1200px) {
   gap:30px;
@@ -624,7 +634,7 @@ align-items:center;
 justify-content:space-between;
 @media (max-width: 550px) {
   display:flex;
-  flex-direction:column-reverse;
+  flex-direction:column;
   gap:20px;
 
   }

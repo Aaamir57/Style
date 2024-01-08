@@ -24,7 +24,7 @@ box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.25);
    }
 .navbar{
 	width: 100%;
-	height: 70px;
+	height: 80px;
 	margin: 0 auto;
 	
 	display: grid;
@@ -105,7 +105,7 @@ display: none;
 	transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .dropdown_menu.open{
-	height: 240px;
+	height: 280px;
 }
 .dropdown_menu li{
 	list-style: none;
@@ -822,17 +822,20 @@ justify-content: center;
 	display: flex;
 	flex-direction: row;
 	gap: 10px;
+	
 }
 .btntextmain img{
 	width: 21.473px;
 height: 25.197px;
 flex-shrink: 0;
 position: relative;
-top: 25px
+top: 20px;
+
 }
 .btntext{
 	display: flex;
 	flex-direction: column;
+
 }
 .btntext h1{
 	color: #FFF;
@@ -840,9 +843,10 @@ font-family: Roboto;
 font-size: 10px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 300% */
+text-align: left;
 position: relative;
-top: 15px;
+bottom: 2px;
+
 
 }
 .btntext h2{
@@ -851,12 +855,33 @@ font-family: Poppins;
 font-size: 10px;
 font-style: normal;
 font-weight: 500;
-position: relative;
 text-align: left;
-top: -6px;
-line-height: 30px; /* 300% */
+position: relative;
+bottom: 22px;
 }
-
+@media (max-width:992px) {
+	.btntext h1{
+		color: #FFF;
+	font-family: Roboto;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	position: relative;
+	top: 5px;
+	
+	
+	}
+	.btntext h2{
+		color: #04D8AC;
+	font-family: Poppins;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 500;
+	text-align: left;
+	
+	}
+}
 
 .rightfivesection{
 	width: 50%;
@@ -1627,7 +1652,7 @@ display: grid;
 place-items: center;
 background: #323232; 
 position: relative;
-top: -10px;
+top: -8px;
 }
 .linkbtnnew h1{
 	color: #04D8AC;
@@ -1667,4 +1692,18 @@ height: 80%;
 		
 	}
 
+}
+
+
+
+
+.imagetwo{
+	width: 100px !important;
+height: 100px !important;
+flex-shrink: 0;
+}
+
+
+.backgroundd{
+	background: #323232;
 }
